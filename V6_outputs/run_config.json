@@ -1,0 +1,24 @@
+{
+  "version": "V6_city_adaptive",
+  "data": "/mnt/data/cleaned_panel(1).csv",
+  "outer_validation_years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "alpha_final": 1.0,
+  "final_et_params": {
+    "n_estimators": 700,
+    "min_samples_leaf": 1,
+    "max_features": 1.0
+  },
+  "adaptive_decay": 0.6,
+  "adaptive_shrink": 2.0,
+  "v5_nested_mse": 734.9939676840751,
+  "v6_city_adaptive_nested_mse": 679.9442976087684,
+  "census_break_threshold": 0.08,
+  "large_change_threshold_pct": 15,
+  "final_rule": "ExtraTrees + city-level time-decayed OOF residual correction"
+}
